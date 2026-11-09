@@ -1,0 +1,43 @@
+# gradle
+build/
+.gradle/
+out/
+run/
+run-data/
+
+# 第三方依赖（体积大且涉及他人许可，不入库）
+libs/*.jar
+libs/*.zip
+
+# 构建产物
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# 日志与临时文件
+*.log
+logs/
+crash-reports/
+*.bak
+*.tmp
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+*.launch
+.metadata
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 本地调试
+debug/
+test-world/
